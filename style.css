@@ -1,0 +1,123 @@
+/* Here goes your CSS */
+h1 {
+  color: #b23136;
+  font-size: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #b79145;
+}
+
+h3 {
+  /*font-size: 15px;*/
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #b78116;
+}
+
+p {
+  color: #b79145;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url("back_g6.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  /*color: #7d7d7d;*/
+
+}
+
+a {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c12e33;
+}
+
+.container {
+  width: 1000px;
+  margin: 30px auto;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  margin-right: -100px;
+
+}
+
+
+.img-circle {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #ba9957;
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+ .inline {
+  padding-left: 0;
+  /*color: #7d7d7d;*/
+}
+.inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 30px;
+  /*color: #7d7d7d;*/
+ }
+
+ #sidebar {
+  position: fixed;
+  width: 130px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  border-top: 1px solid #2f2f38;
+  border-right: 1px solid #2f2f38;
+  border-bottom: 1px solid #2f2f38;
+  border-left: 2px solid #2f2f38;
+  background-color: #2f2f38;
+
+  /*text-align: center;*/
+}
+
+#sidebar a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #788188;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2)
+  text-align: center;
+  padding: 15px
+}
+
+#sidebar a:hover {
+  color: white;
+}
+
+#sidebar > ul > li {
+margin-bottom: 30px;
+margin-top: 30px;
+margin-left: 10px;
+
+}
+
+.btn-red {
+  background-color: #DD5555;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
